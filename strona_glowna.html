@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nippon Journeys — podróże po Japonii</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="strona_glowna.css">
+</head>
+
+<body>
+
+    <div class="bubbles">
+  <div class="bubble" style="left:10%"></div>
+  <div class="bubble" style="left:60%"></div>
+  <div class="bubble" style="left:80%"></div>
+</div>
+<div class="page">
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">旅</div>
+    <div>
+      <div class="logo-title">NIPPON JOURNEYS</div>
+      <div class="logo-sub">Autorskie podróże po Japonii</div>
+    </div>
+  </div>
+
+  <nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Zmień motyw">
+      <span class="toggle-thumb"></span>
+    </button>
+    <a href="koszyk.html" class="nav-cart" aria-label="Koszyk">
+  🛒
+</a>
+    <a href="trasy.html">Trasy</a>
+    <a href="formy_podrozy.html">Formy podróży</a>
+    <a href="kiedy_jechac.html">Kiedy jechać</a>
+    <a href="praktyczne_informacje.html">Praktyczne informacje</a>
+    <a href="#" class="nav-active">O nas</a>
+    <a class="nav-cta" href="zostaw_zapytanie.html">Zostaw zapytanie</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-label">ニッポン・プライベートツアー</div>
+    <h1>Podróże po <span>Japonii</span>,<br>w których jest czas na pauzę</h1>
+    <p>
+      Małe grupy, ryokany z onsenami i trasy zaprojektowane
+      z japońską dbałością o detale.
+    </p>
+    <div class="hero-actions">
+      <a href="trasy.html#builder" class="btn-primary">
+  Dopasuj trasę
+</a>
+      <a href="trasy.html" class="btn-secondary">
+  Zobacz trasy
+</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    Podróż nie według checklisty,<br>lecz według odczuć
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Atrakcje i wrażenia</div>
+
+  <div class="routes">
+
+    <div class="route-card">
+      <div class="route-title">🍣 Jedzenie i targi</div>
+      <div class="route-desc">
+        Japonia od strony kulinarnej: street food, targi i małe restauracje.
+      </div>
+      <div style="font-size:12px;color:var(--ink-soft);margin-bottom:12px">
+        Gdzie najlepiej: Osaka, Tokio, Kanazawa
+      </div>
+      <div class="route-image" style="background-image:url('images/food.jpg')"></div>
+    </div>
+
+    <div class="route-card">
+      <div class="route-title">♨️ Onseny</div>
+      <div class="route-desc">
+        Gorące źródła w górach lub nad morzem — część trasy.
+      </div>
+      <div style="font-size:12px;color:var(--ink-soft);margin-bottom:12px">
+        Gdzie najlepiej: Hakone, Wakura, Kiusiu
+      </div>
+      <div class="route-image" style="background-image:url('images/onsen.jpg')"></div>
+    </div>
+
+    <div class="route-card">
+      <div class="route-title">🏔 Góry i natura</div>
+      <div class="route-desc">
+        Alpy, wulkany, lasy i trekking.
+      </div>
+      <div style="font-size:12px;color:var(--ink-soft);margin-bottom:12px">
+        Gdzie najlepiej: Alpy Japońskie, Hokkaido
+      </div>
+      <div class="route-image" style="background-image:url('images/mountain.jpg')"></div>
+    </div>
+
+    <div class="route-card">
+      <div class="route-title">⛩ Kultura i tradycje</div>
+      <div class="route-desc">
+        Świątynie, ceremonie herbaciane, ogrody i historyczne dzielnice.
+      </div>
+      <div style="font-size:12px;color:var(--ink-soft);margin-bottom:12px">
+        Gdzie najlepiej: Kioto, Nara
+      </div>
+      <div class="route-image" style="background-image:url('images/traditions.webp')"></div>
+    </div>
+
+    <div class="route-card">
+      <div class="route-title">🖼 Muzea i sztuka</div>
+      <div class="route-desc">
+        Sztuka współczesna, architektura i przestrzenie wystawowe.
+      </div>
+      <div style="font-size:12px;color:var(--ink-soft);margin-bottom:12px">
+        Gdzie najlepiej: Tokio, Kanazawa, Naoshima
+      </div>
+      <div class="route-image" style="background-image:url('images/museum.jpg')"></div>
+    </div>
+
+    <div class="route-card">
+      <div class="route-title">🎎 Festiwale i matsuri</div>
+      <div class="route-desc">
+        Sezonowe święta, parady, światła i jedzenie uliczne.
+      </div>
+      <div style="font-size:12px;color:var(--ink-soft);margin-bottom:12px">
+        Gdzie najlepiej: Kioto, Takayama, Aomori
+      </div>
+      <div class="route-image" style="background-image:url('images/festival.jpg')"></div>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Popularne trasy</div>
+  <div class="section-sub">Od pierwszej podróży po mniej znane regiony</div>
+
+  <div class="routes">
+    <div class="route-card" data-id="classic">
+      <div class="route-city">東京</div>
+      <div class="route-title">Tokio - Kioto - Osaka</div>
+      <div class="route-desc">Klasyczne wprowadzenie</div>
+
+      <div class="route-actions">
+    <button class="btn-details">Szczegóły</button>
+    <button class="btn-cart">Dodaj do koszyka</button>
+  </div>
+
+    </div>
+
+    <div class="route-card" data-id="kioto-uji-nara">
+      <div class="route-city">京都</div>
+      <div class="route-title">Kioto - Uji - Nara</div>
+      <div class="route-desc">Świątynie i herbata</div>
+
+      <div class="route-actions">
+    <button class="btn-details">Szczegóły</button>
+    <button class="btn-cart">Dodaj do koszyka</button>
+  </div>
+
+    </div>
+
+    <div class="route-card" data-id="kanazawa-noto">
+      <div class="route-city">海辺</div>
+      <div class="route-title">Kanazawa i Noto</div>
+      <div class="route-desc">Wybrzeże Morza Japońskiego</div>
+
+      <div class="route-actions">
+    <button class="btn-details">Szczegóły</button>
+    <button class="btn-cart">Dodaj do koszyka</button>
+  </div>
+
+    </div>
+
+    <div class="route-card" data-id="hakone-fuji">
+      <div class="route-city">温泉</div>
+      <div class="route-title">Hakone i Fuji</div>
+      <div class="route-desc">Onseny i widoki na górę Fuji</div>
+
+      <div class="route-actions">
+    <button class="btn-details">Szczegóły</button>
+    <button class="btn-cart">Dodaj do koszyka</button>
+  </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="who">
+  <div class="who-inner">
+    <div class="who-line"></div>
+
+    <div class="section-title" style="text-align:center">
+      Dla kogo są te podróże
+    </div>
+    <div class="section-sub" style="text-align:center">
+      Jeśli odnajdujesz siebie — jesteśmy po tej samej stronie
+    </div>
+
+    <div class="who-grid">
+      <div class="who-card">
+        Dla tych, którzy jadą do Japonii po raz pierwszy i chcą ją zrozumieć.
+      </div>
+      <div class="who-card">
+        Dla tych, którzy byli już w Tokio i Kioto i chcą zobaczyć prowincję.
+      </div>
+      <div class="who-card">
+        Dla tych, którzy cenią estetykę, ciszę i przemyślaną obsługę.
+      </div>
+    </div>
+
+    <div class="who-line"></div>
+  </div>
+</section>
+
+<section>
+  <div class="section-title">Skontaktuj się z nami</div>
+  <div class="section-sub">
+    Odpowiadamy osobiście, bez call center
+  </div>
+
+  <div class="routes" style="grid-template-columns:1.2fr .8fr">
+    <div class="route-card">
+      <div class="route-desc" style="margin-bottom:12px">
+        Napisz do nas — dobierzemy trasę do twoich dat, zainteresowań
+        i tempa podróży.
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <button class="btn-primary">Napisz na WhatsApp</button>
+        <button class="btn-secondary">Telegram</button>
+      </div>
+    </div>
+
+    <div class="route-card">
+      <div class="route-image" style="background-image:url('images/japon-1.webp')"></div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        nippon<span class="footer-logo-dot">●</span>journeys
+      </div>
+
+      <nav class="footer-nav">
+        <a href="strona_glowna.html">O nas</a>
+        <a href="trasy.html">Trasy</a>
+        <a href="formy_podrozy.html">Formy podróży</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="polityka_i_warunki.html">Polityka i warunki</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/Telegram_logo.svg.webp" alt="Telegram"></a>
+        <a href="#"><img src="images/YouTube_social_white_squircle_(2017).svg.png" alt="YouTube"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Nippon Journeys · Autorskie podróże po Japonii
+    </div>
+  </div>
+</footer>
+
+
+<script src="calosc.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+

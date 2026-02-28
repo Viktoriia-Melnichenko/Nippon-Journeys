@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Trasa — Nippon Journeys</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="trasy.css">
+</head>
+
+<body>
+
+<div class="page">
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">旅</div>
+    <div>
+      <div class="logo-title">NIPPON JOURNEYS</div>
+      <div class="logo-sub">Autorskie podróże po Japonii</div>
+    </div>
+  </div>
+
+  <nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Zmień motyw">
+      <span class="toggle-thumb"></span>
+    </button>
+     <a href="koszyk.html" class="nav-cart" aria-label="Koszyk">
+  🛒
+</a>
+    <a href="trasy.html">Trasy</a>
+    <a href="formy_podrozy.html">Formy podróży</a>
+    <a href="kiedy_jechac.html">Kiedy jechać</a>
+    <a href="praktyczne_informacje.html">Praktyczne informacje</a>
+    <a href="strona_glowna.html">O nas</a>
+    <a class="nav-cta" href="zostaw_zapytanie.html">Zostaw zapytanie</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1 id="routeTitle">Trasa</h1>
+  <p id="routeDesc"></p>
+</section>
+
+<section class="section">
+
+  <h2>Plan podróży</h2>
+
+  <div class="routes" id="citiesList">
+  </div>
+
+</section>
+
+<section class="section">
+
+  <div class="builder">
+
+    <div>
+      <h2>Podsumowanie</h2>
+      <p>Długość trasy:</p>
+      <strong id="sumDays">0 dni</strong>
+
+      <p style="margin-top:16px;">Cena orientacyjna:</p>
+      <strong id="sumPrice">0 PLN</strong>
+    </div>
+
+    <div class="summary">
+      <button id="addToCartBtn">
+        Dodaj trasę do koszyka
+      </button>
+    </div>
+
+  </div>
+
+</section>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        nippon<span class="footer-logo-dot">●</span>journeys
+      </div>
+
+      <nav class="footer-nav">
+        <a href="strona_glowna.html">O nas</a>
+        <a href="trasy.html">Trasy</a>
+        <a href="formy_podrozy.html">Formy podróży</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="polityka_i_warunki.html">Polityka i warunki</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/Telegram_logo.svg.webp" alt="Telegram"></a>
+        <a href="#"><img src="images/YouTube_social_white_squircle_(2017).svg.png" alt="YouTube"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Nippon Journeys · Autorskie podróże po Japonii
+    </div>
+  </div>
+</footer>
+
+<script src="calosc.js" defer></script>
+
+</body>
+</html>

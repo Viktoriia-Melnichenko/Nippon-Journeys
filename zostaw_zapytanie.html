@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zostaw zapytanie — Nippon Journeys</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="zostaw_zapytanie.css">
+</head>
+
+<body>
+<div class="page">
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">旅</div>
+    <div>
+      <div class="logo-title">NIPPON JOURNEYS</div>
+      <div class="logo-sub">Autorskie podróże po Japonii</div>
+    </div>
+  </div>
+
+  <nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Zmień motyw">
+      <span class="toggle-thumb"></span>
+    </button>
+     <a href="koszyk.html" class="nav-cart" aria-label="Koszyk">
+  🛒
+</a>
+    <a href="trasy.html">Trasy</a>
+    <a href="formy_podrozy.html">Formy podróży</a>
+    <a href="kiedy_jechac.html">Kiedy jechać</a>
+    <a href="praktyczne_informacje.html">Praktyczne informacje</a>
+    <a href="strona_glowna.html">O nas</a>
+    <a class="nav-cta" href="#" class="nav-active">Zostaw zapytanie</a>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <h1>Zostaw zapytanie</h1>
+  <p>
+    Opisz, jak wyobrażasz sobie podróż do Japonii — terminy, tempo, zainteresowania.
+    Odpowiemy osobiście.
+  </p>
+</section>
+
+<section class="form-wrap">
+  <form id="contactForm"
+        action="https://formspree.io/f/mwvpaeez"
+        method="POST"
+        novalidate>
+
+    <div class="form-group">
+      <label>Imię</label>
+      <input type="text" name="name" placeholder="Twoje imię" required>
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" name="email" placeholder="twoj@email.com" required>
+    </div>
+
+    <div class="form-group">
+      <label>Twoje pytanie lub opis podróży</label>
+      <textarea name="message"
+        placeholder="Np. pierwsza podróż do Japonii, spokojne tempo, onseny, 10–14 dni…"
+        required></textarea>
+    </div>
+    <div class="form-consent">
+  <label>
+    <input type="checkbox" id="consent" required>
+    Akceptuję
+    <a href="polityka_i_warunki.html" target="_blank">
+      politykę prywatności i warunki
+    </a>
+  </label>
+</div>
+
+    <div class="form-actions">
+      <button type="submit">Wyślij zapytanie</button>
+    </div>
+  </form>
+</section>
+
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        nippon<span class="footer-logo-dot">●</span>journeys
+      </div>
+
+      <nav class="footer-nav">
+        <a href="strona_glowna.html">O nas</a>
+        <a href="trasy.html">Trasy</a>
+        <a href="formy_podrozy.html">Formy podróży</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="polityka_i_warunki.html">Polityka i warunki</a>
+      </nav>
+
+      <div class="footer-social">
+        <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="images/Telegram_logo.svg.webp" alt="Telegram"></a>
+        <a href="#"><img src="images/YouTube_social_white_squircle_(2017).svg.png" alt="YouTube"></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Nippon Journeys · Autorskie podróże po Japonii
+    </div>
+  </div>
+</footer>
+
+
+
+<div class="modal-backdrop" id="modalBackdrop"></div>
+
+<div class="modal" id="successModal">
+  <div class="modal-icon">✓</div>
+  <div class="modal-title">Dziękujemy!</div>
+  <div class="modal-text">
+    Twoje zapytanie zostało wysłane.<br>
+    Wkrótce się z Tobą skontaktujemy.
+  </div>
+  <button class="nav-cta" onclick="closeModal()">Zamknij</button>
+</div>
+
+<script src="calosc.js"></script>
+
+</body>
+</html>
