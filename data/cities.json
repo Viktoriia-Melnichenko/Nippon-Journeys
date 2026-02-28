@@ -1,0 +1,61 @@
+{
+  "cities": {
+    "tokio": { "name": "Tokio", "jp": "東京", "days": 3, "price": 180 },
+    "kioto": { "name": "Kioto", "jp": "京都", "days": 3, "price": 160 },
+    "osaka": { "name": "Osaka", "jp": "大阪", "days": 2, "price": 150 },
+    "nara": { "name": "Nara", "jp": "奈良", "days": 1, "price": 120 },
+    "uji": { "name": "Uji", "jp": "宇治", "days": 1, "price": 120 },
+    "hiroshima": { "name": "Hiroshima", "jp": "広島", "days": 2, "price": 140 },
+    "kanazawa": { "name": "Kanazawa", "jp": "金沢", "days": 2, "price": 140 },
+    "noto": { "name": "Noto", "jp": "能登", "days": 1, "price": 130 },
+    "hakone": { "name": "Hakone", "jp": "箱根", "days": 1, "price": 170 },
+    "fuji": { "name": "Góra Fuji", "jp": "富士山", "days": 1, "price": 150 },
+    "takayama": { "name": "Takayama", "jp": "高山", "days": 1, "price": 130 },
+    "miyajima": { "name": "Miyajima", "jp": "宮島", "days": 1, "price": 120 }
+  },
+
+  "routes": [
+    {
+      "id": "classic",
+      "title": "Tokio — Kioto — Osaka",
+      "desc": "Klasyczne wprowadzenie do Japonii",
+      "citySymbol": "東京",
+      "cities": ["tokio", "kioto", "osaka"]
+    },
+    {
+      "id": "kioto-uji-nara",
+      "title": "Kioto — Uji — Nara",
+      "desc": "Świątynie, herbata i tradycja",
+      "citySymbol": "京都",
+      "cities": ["kioto", "uji", "nara"]
+    },
+    {
+      "id": "hakone-fuji",
+      "title": "Hakone i Fuji",
+      "desc": "Onseny i ikona Japonii",
+      "citySymbol": "温泉",
+      "cities": ["hakone", "fuji"]
+    },
+    {
+      "id": "kanazawa-noto",
+      "title": "Kanazawa i półwysep Noto",
+      "desc": "Morze Japońskie i dawna Japonia",
+      "citySymbol": "海辺",
+      "cities": ["kanazawa", "noto"]
+    },
+    {
+      "id": "hiroshima-miyajima",
+      "title": "Hiroshima i Miyajima",
+      "desc": "Historia i duchowość",
+      "citySymbol": "平和",
+      "cities": ["hiroshima", "miyajima"]
+    },
+    {
+      "id": "alps",
+      "title": "Japońskie Alpy",
+      "desc": "Góry, natura i Takayama",
+      "citySymbol": "山",
+      "cities": ["kanazawa", "takayama"]
+    }
+  ]
+}
